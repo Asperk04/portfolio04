@@ -9,6 +9,7 @@
     height: 220px;
     z-index: 3;
     &__link {
+        background-color: cadetblue;
         &:hover{
             svg path{
                 fill: $main-color;
@@ -19,12 +20,12 @@
     &__divader{
         width: 2px;
         height: 70px;
-        background-color: white;
+        background-color: rgb(222, 157, 157);
     }
     &__text{
         width: 150px;
         height: 25px;
-        color: white;
+        color:  rgb(222, 157, 157);
         span{
             transform: rotate(-90deg) translate(-15%);
             display: block;
